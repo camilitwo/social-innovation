@@ -1,0 +1,18 @@
+<mat-toolbar color="primary" class="navbar">
+  <span class="title">Creciendo Juntos</span>
+  <span class="spacer"></span>
+  <a mat-button routerLink="/">Instructivo e ideas</a>
+  <a mat-button routerLink="/habilidades">Focalización de habilidades</a>
+  <a mat-button routerLink="/conocimiento">Fomenta el conocimiento</a>
+
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item>Perfil</button>
+    <button mat-menu-item>Ajustes</button>
+  </mat-menu>
+
+  <button mat-icon-button [matMenuTriggerFor]="menu">
+    <mat-icon>menu</mat-icon>
+  </button>
+</mat-toolbar>
+
+
