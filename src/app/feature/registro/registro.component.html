@@ -6,22 +6,22 @@
       <div class="form-section">
         <h3 class="section-title">Información de Perfil</h3>
         <mat-form-field class="full-width" appearance="outline">
-          <mat-label>Nombre completo</mat-label>
-          <input matInput placeholder="Ingrese su nombre completo" required [(ngModel)]="user.nombre" name="nombre">
+          <mat-label style="color: #757575">Nombre completo</mat-label>
+          <input matInput placeholder="Ingrese su nombre completo" required [(ngModel)]="user.nombre" name="nombre" style="color: #333333">
         </mat-form-field>
 
         <mat-form-field class="full-width" appearance="outline">
-          <mat-label>Correo Electrónico</mat-label>
-          <input matInput type="email" placeholder="Ingrese su correo electrónico" required [(ngModel)]="user.email" name="email">
+          <mat-label style="color: #757575">Correo Electrónico</mat-label>
+          <input matInput type="email" placeholder="Ingrese su correo electrónico" required [(ngModel)]="user.email" name="email" style="color: #333333">
         </mat-form-field>
 
         <mat-form-field class="full-width" appearance="outline">
-          <mat-label>Número de Teléfono</mat-label>
-          <input matInput type="tel" placeholder="Ingrese su número de teléfono" required [(ngModel)]="user.telefono" name="telefono">
+          <mat-label style="color: #757575">Número de Teléfono</mat-label>
+          <input matInput type="tel" placeholder="Ingrese su número de teléfono" required [(ngModel)]="user.telefono" name="telefono" style="color: #333333">
         </mat-form-field>
 
         <mat-form-field class="full-width" appearance="outline">
-          <mat-label>Mensajería</mat-label>
+          <mat-label style="color: #757575">Mensajería</mat-label>
           <mat-select [(ngModel)]="user.mensajeria" name="mensajeria" required>
             <mat-option value="WhatsApp">WhatsApp</mat-option>
             <mat-option value="Telegram">Telegram</mat-option>
@@ -30,23 +30,23 @@
         </mat-form-field>
 
         <h3 class="section-title">Redes Sociales</h3>
-        <div class="checkbox-group">
+        <div class="checkbox-group" >
           <mat-checkbox [(ngModel)]="user.facebook" name="facebook">Facebook</mat-checkbox>
-          <mat-checkbox [(ngModel)]="user.instagram" name="instagram">Instagram</mat-checkbox>
-          <mat-checkbox [(ngModel)]="user.twitter" name="twitter">Twitter</mat-checkbox>
+          <mat-checkbox  [(ngModel)]="user.instagram" name="instagram">Instagram</mat-checkbox>
+          <mat-checkbox  [(ngModel)]="user.twitter" name="twitter">Twitter</mat-checkbox>
         </div>
       </div>
 
       <div class="form-section">
         <h3 class="section-title">Habilidades y Herramientas</h3>
         <mat-form-field class="full-width" appearance="outline">
-          <mat-label>Habilidades</mat-label>
-          <input matInput placeholder="Ingrese sus habilidades" [(ngModel)]="user.habilidades" name="habilidades">
+          <mat-label style="color: #757575">Habilidades</mat-label>
+          <input matInput placeholder="Ingrese sus habilidades" [(ngModel)]="user.habilidades" name="habilidades" style="color: #333333">
         </mat-form-field>
 
         <mat-form-field class="full-width" appearance="outline">
-          <mat-label>Herramientas</mat-label>
-          <input matInput placeholder="Ingrese las herramientas que posee" [(ngModel)]="user.herramientas" name="herramientas">
+          <mat-label style="color: #757575">Herramientas</mat-label>
+          <input matInput placeholder="Ingrese las herramientas que posee" [(ngModel)]="user.herramientas" name="herramientas" style="color: #333333">
         </mat-form-field>
       </div>
 

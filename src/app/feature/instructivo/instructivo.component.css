@@ -93,3 +93,65 @@
   font-weight: bold;
   text-transform: uppercase;
 }
+
+/* Responsividad */
+@media (max-width: 768px) {
+  .instructivo-card {
+    width: 90%;
+    padding: 16px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+
+  .instructivo-content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .instructivo-description {
+    font-size: 14px;
+  }
+
+  .image-container img {
+    height: auto;
+  }
+
+  .image-legend {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .instructivo-card {
+    width: 95%;
+    padding: 12px;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .instructivo-description {
+    font-size: 13px;
+  }
+
+  .image-legend {
+    font-size: 12px;
+  }
+
+  .cta-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}

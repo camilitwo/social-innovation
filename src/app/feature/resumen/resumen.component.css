@@ -105,3 +105,71 @@
 .cta-link:hover {
   color: #1565c0;
 }
+
+/* Responsividad */
+@media (max-width: 1024px) {
+  .resumen-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .resumen-container {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .section-title {
+    font-size: 18px;
+  }
+
+  .subsection-title {
+    font-size: 14px;
+  }
+
+  .search-button {
+    font-size: 14px;
+  }
+
+  .result-card h4 {
+    font-size: 16px;
+  }
+
+  .result-card p {
+    font-size: 12px;
+  }
+
+  .skill-tag {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 480px) {
+  .resumen-container {
+    padding: 10px;
+  }
+
+  .section-title {
+    font-size: 16px;
+  }
+
+  .search-button {
+    font-size: 12px;
+  }
+
+  .result-card h4 {
+    font-size: 14px;
+  }
+
+  .result-card p {
+    font-size: 11px;
+  }
+
+  .skill-tag {
+    font-size: 10px;
+  }
+
+  .cta-link {
+    font-size: 14px;
+  }
+}
