@@ -1,0 +1,107 @@
+.resumen-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #3f51b5;
+  margin-bottom: 16px;
+}
+
+.subsection-title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.resumen-busqueda,
+.resumen-registros,
+.resumen-beneficios {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-field {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.search-button {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+}
+
+.result-cards {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.result-card {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  background-color: #e3f2fd;
+  border-radius: 8px;
+}
+
+.result-card h4 {
+  margin: 0;
+  color: #1e88e5;
+  font-weight: bold;
+}
+
+.result-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #757575;
+}
+
+.registro-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.registro-list li {
+  margin-bottom: 16px;
+}
+
+.skill-tag {
+  display: inline-block;
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.benefit-list {
+  list-style: disc;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.cta-link {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: #1e88e5;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.cta-link:hover {
+  color: #1565c0;
+}
